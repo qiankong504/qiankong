@@ -497,7 +497,8 @@ function buildAll(){
   let html = "<thead><tr><th>指标</th>" + M.map(m=>`<th>${m.date}</th>`).join("") + "<th>总变化</th></tr></thead><tbody>";
   rows.forEach(([name,key,unit])=>{
     const vals = M.map(m=>m[key]);
-    const dv = vals[vals.length-1]-vals[0];
+    const nz = vals.filter(v=>v!=null);
+    const dv = nz.length ? nz[nz.length-1]-nz[0] : null;
     const cls = dv>0?"up":dv<0?"down":"flat";
     html += `<tr><td class="name">${name}${unit?` (${unit})`:''}</td>`
       + vals.map(v=>`<td>${fmt(v)}</td>`).join("")
