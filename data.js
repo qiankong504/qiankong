@@ -409,6 +409,53 @@ const DATA = {
         "goalWeight": null,
         "goalFat": null,
         "goalMuscle": null
+      },
+      {
+        "date": "10月25日 11:46",
+        "weight": 64,
+        "muscle": 26.2,
+        "fatMass": 16.4,
+        "fatPct": 25.7,
+        "water": 34.8,
+        "protein": 9.4,
+        "mineral": 3.3,
+        "leanMass": 47.6,
+        "bmi": 24.1,
+        "visceral": 7,
+        "bmr": 1397,
+        "segMuscle": {
+          "左臂": 2.5,
+          "右臂": 2.5,
+          "躯干": 21.2,
+          "左腿": 6.8,
+          "右腿": 6.7
+        },
+        "segFat": {
+          "左臂": 1,
+          "右臂": 1,
+          "躯干": 8.6,
+          "左腿": 2.4,
+          "右腿": 2.4
+        },
+        "segMusclePct": {
+          "左臂": 116.3,
+          "右臂": 116.5,
+          "躯干": 108.3,
+          "左腿": 100.5,
+          "右腿": 99.2
+        },
+        "segFatPct": {
+          "左臂": 103.7,
+          "右臂": 102.6,
+          "躯干": 159.6,
+          "左腿": 98.1,
+          "右腿": 98
+        },
+        "idealWeight": 61.8,
+        "calorie": 2198,
+        "goalWeight": -2.2,
+        "goalFat": -2.2,
+        "goalMuscle": 0
       }
     ]
   },
