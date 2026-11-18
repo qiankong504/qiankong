@@ -468,12 +468,36 @@ const DATA = {
         "mineral": 3.1,
         "leanMass": 44.5,
         "bmi": 22.7,
-        "visceral": null,
+        "visceral": 6,
         "bmr": 1331,
-        "segMuscle": null,
-        "segFat": null,
-        "segMusclePct": null,
-        "segFatPct": null,
+        "segMuscle": {
+          "左臂": 2.2,
+          "右臂": 2.2,
+          "躯干": 19.9,
+          "左腿": 6.6,
+          "右腿": 6.6
+        },
+        "segFat": {
+          "左臂": 1,
+          "右臂": 1,
+          "躯干": 8.1,
+          "左腿": 2.4,
+          "右腿": 2.4
+        },
+        "segMusclePct": {
+          "左臂": 107.3,
+          "右臂": 107.5,
+          "躯干": 103.6,
+          "左腿": 98.7,
+          "右腿": 98.3
+        },
+        "segFatPct": {
+          "左臂": 101.7,
+          "右臂": 100.7,
+          "躯干": 149.9,
+          "左腿": 96.9,
+          "右腿": 96.8
+        },
         "idealWeight": 57.8,
         "calorie": 2160,
         "goalWeight": -2.5,
