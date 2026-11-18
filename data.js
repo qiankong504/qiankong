@@ -456,6 +456,29 @@ const DATA = {
         "goalWeight": -2.2,
         "goalFat": -2.2,
         "goalMuscle": 0
+      },
+      {
+        "date": "11月18日 11:10",
+        "weight": 60.3,
+        "muscle": 24.5,
+        "fatMass": 15.8,
+        "fatPct": 26.2,
+        "water": 32.6,
+        "protein": 8.8,
+        "mineral": 3.1,
+        "leanMass": 44.5,
+        "bmi": 22.7,
+        "visceral": null,
+        "bmr": 1331,
+        "segMuscle": null,
+        "segFat": null,
+        "segMusclePct": null,
+        "segFatPct": null,
+        "idealWeight": 57.8,
+        "calorie": 2160,
+        "goalWeight": -2.5,
+        "goalFat": -2.5,
+        "goalMuscle": 0
       }
     ]
   },
